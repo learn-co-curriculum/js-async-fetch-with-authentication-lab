@@ -1,5 +1,5 @@
 {
-  "name": "npm-lab",
+  "name": "js-browser-tests-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/learn-co-curriculum/npm-lab.git"
+    "url": "git+https://github.com/learn-co-curriculum/js-browser-tests-template.git"
   },
   "author": "Choux Maru and Doge",
-  "license": "ISC",
+  "license": "Included in repository",
   "bugs": {
-    "url": "https://github.com/learn-co-curriculum/npm-lab/issues"
+    "url": "https://github.com/learn-co-curriculum/js-browser-tests-template/issues"
   },
-  "homepage": "https://github.com/learn-co-curriculum/npm-lab#readme",
+  "homepage": "https://github.com/learn-co-curriculum/js-browser-tests-template#readme",
   "dependencies": {
     "learn-browser": "^0.1.17",
     "moment": "^2.22.2"
