@@ -1,4 +1,10 @@
 //No need to do any work here.  If package.json and the proper modules are installed, this will
+const testVar = {}
+
+function testFunc() {
+  return "hi"
+}
+
 
 function displayTime() {
   let clock = document.querySelector('#clock')
@@ -9,7 +15,7 @@ function displayTime() {
       clock.style.backgroundColor = '#'+Math.floor(Math.random()*16777215).toString(16);
   }, 1000)
 
-
 }
+
 
 window.onload = displayTime()
