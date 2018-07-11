@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/learn-co-curriculum/js-browser-tests-template#readme",
   "dependencies": {
-    "learn-browser": "^0.1.17"
+    "learn-browser": "^0.1.17",
+    "moment": "^2.22.2"
   }
 }
