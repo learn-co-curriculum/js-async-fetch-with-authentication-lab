@@ -1,5 +1,5 @@
 //No need to do any work here.  If package.json and the proper modules are installed, this will
-const testVar = {}
+// const testVar = {}
 
 function testFunc() {
   return "hi"

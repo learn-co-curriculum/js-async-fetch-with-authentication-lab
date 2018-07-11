@@ -9,12 +9,12 @@ describe('index.js', function () {
   });
 
   describe("index.html", () => {
-    it("includes 'hello'", () => {
-      expect(document.querySelector('body').innerHTML).to.include('hello')
+    it("doesnt't include 'p' tag", () => {
+      expect(document.querySelector('p'), "A 'p' tag as found").to.not.exist
     })
 
-    it("includes div", () => {
-      expect(document.querySelector('body').innerHTML, "no empty div element found within body").to.include('<div></div>')
+    it("includes an empty div", () => {
+      expect(document.querySelector('body').innerHTML, "No empty div element found within body").to.include('<div></div>')
     })
 
 
